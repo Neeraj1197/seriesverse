@@ -1,0 +1,30 @@
+.peopleSidebar{
+    width: 25vw;
+    box-sizing: border-box;
+}
+
+.sideBarImgBox{
+    width: inherit;
+    margin-bottom: 20px;
+    
+}
+
+.sideBarImgBox img{
+    width: 23vw;
+    height: auto;
+    border-radius: 10px;
+}
+.personalInfo h4{
+    margin-bottom: 3px;
+}
+.personalInfo h2, .personalInfo h4{
+    margin: 0;
+    color: black;
+}
+.personalInfo div{
+    margin-top: 20px;
+}
+
+.knownas p{
+    margin-bottom: 10px;
+}

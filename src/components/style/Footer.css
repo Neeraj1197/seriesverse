@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.footerContainer{
+    background-color: hsl(207,88%,13%);
+    max-width: 100vw;
+    height: 326px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerLogo img{
+    height: 94px;
+    width: 130px;
+}
+.footerLinks{
+    display: flex;
+    flex-wrap: wrap;
+    width: 176px;
+    height: 158px;
+    margin: 10px;
+}
+.footerLinks a, h2{
+    color: white;
+    width: inherit;
+}
+.footerLinks a{
+    margin-top: -20px;
+}
+
+.footerLogo{
+    height: 100%;
+    margin: 110px 10px 0 0;
+    justify-content: right;
+}

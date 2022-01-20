@@ -1,0 +1,23 @@
+.peopleContainer{
+    display: flex;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.peopleImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+.peopleImg img{
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+}
+.PeopleContainerLink{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}

@@ -1,0 +1,36 @@
+.collectionUpperBox{
+    display: flex;
+    height: 500px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(33,35,36,0.8);
+    margin-bottom: 25px;
+    padding-top: 15px;
+}
+ .collectionImageBox{
+    height: 500px;
+    margin: 0 25px 0 25px
+}
+#collectionImage{
+    height: 450px;
+    width: 300px;
+}
+
+.collectionSideContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+
+}
+.collectionSideContainer h1{
+    margin-bottom: 15px;
+}
+
+.collectionLower{
+    padding-left: 15px;
+}
+.collectionLower h3{
+    margin: 0 0 15px 0;
+}

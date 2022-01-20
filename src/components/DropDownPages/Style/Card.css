@@ -1,0 +1,74 @@
+.links{
+    text-decoration: none;
+    color: black
+}
+
+.dropDwonPcontainer{
+    position: relative;
+    background-color: white;
+    width: 200px;
+    height: 345px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+#dropDwonimgBox{
+    width: 100%;
+    height: 265px;
+    border-radius: 10px;
+}
+#dropDwonimgBox img{
+    width: 100%;
+    height: 265px;
+    border-radius: 10px;
+    filter: contrast(110%);
+    
+}
+
+#dropDwonrating{
+    border: 1px solid rgb(8,28,34);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    bottom: 65px;
+    left: 7px;
+    background-color: rgb(8,28,34);   
+    z-index: 2;
+}
+#dropDwonrating p{
+    margin-top: 5px;
+    color: white;
+}
+
+#dropDownsmallBox{
+    padding-top: 30px;
+
+}
+#dropDownsmallBox p, h4{
+    margin: 0px;
+    margin-left: 5px;
+    text-size-adjust: 50px;
+}
+
+.lodeMoreBtn{
+    width: 30%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(3,180,228);
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 10px;
+    transition: 1s;
+}
+
+.lodeMoreBtn:hover{
+    transform: scale(1.05);
+    color: black;
+    
+}

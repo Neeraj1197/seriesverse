@@ -1,0 +1,32 @@
+.outer{
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.collectionContainerBox{
+    background-color: rgba(23,58,84,0.5);
+    height: 200px;
+    padding-top: 100px;
+    border-radius: 10px;
+    margin-top: 30px;
+    
+}
+.collectionContainerBox h1, h3{
+   margin-left: 20px;
+   color: white;
+}
+.collectionContainerBox h3{
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.collectionContainerBox a{
+    color: white;
+    margin: 20px 20px 20px 20px;
+    border: 1px solid black;
+    padding: 8px 10px 8px 10px;
+    background-color: rgb(22, 17, 17);
+    border-radius: 20px;
+}
+.collectionContainerBox a:hover{
+    background-color: black;
+}

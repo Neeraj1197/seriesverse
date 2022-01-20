@@ -1,0 +1,25 @@
+.moviesTvContainer{
+    display: flex;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.searchedMovieImg{
+    width: 95px;
+    height: 145px;
+}
+.searchedMovieImg img{
+    width: 94px;
+    height: 141px;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+.MoviesTvInfo{
+    margin-left: 10px;
+    padding-top: 15px;
+}
+.MoviesTvInfo div{
+    margin: 0 0 10px 0 ;
+}

@@ -1,0 +1,28 @@
+
+.videoModalBack{
+    position: absolute;
+    top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(51, 50, 50, 0.8);
+    height: 100vh;
+    width: 100vw;
+    
+}
+.videoModalConatainer{
+    box-sizing: border-box;
+    position: fixed;
+    
+}
+
+.close_btn {
+    display: flex;
+    justify-content: end;
+    background-color: inherit;
+}
+.close_btn button{
+    width: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}

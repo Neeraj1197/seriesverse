@@ -1,0 +1,35 @@
+
+.innerActingCredits, #innerProductionCredits, #innerDirectingCredits, #innerCrewCredits{
+    border: 0.01px ridge rgb(226, 222, 222);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    padding: 15px;
+}
+
+.creditsList{
+    display:flex;
+    margin-bottom: 10px;
+}
+
+.peopleCreditLinkToCardInfo:hover{
+    color: rgb(3,180,228);
+}
+
+.outerDot{
+	height:10px;
+    width: 10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:1px solid black;
+    border-radius:50%;
+    cursor: pointer;
+    margin: 0 10px 0 10px;
+}
+.innerDot{
+	height: 7px;
+    width: 7px;
+    border-radius:50%;
+}
+.outerDot:hover .innerDot{
+    background: black;
+}

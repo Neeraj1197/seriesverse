@@ -1,0 +1,98 @@
+.Pheading{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    
+}
+.Pheading h3{
+    color: black;
+}
+
+.Plinks{
+    display: flex;
+    align-items: stretch;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+    justify-content: flex-start;
+}
+.Plinks button{
+    border: none;
+    border-radius: inherit;
+    padding: 4px 20px;
+    height: 25px;
+    text-align: center;
+}
+.Plinks button:focus{
+    background-color: rgb(3,37,65);
+    color: rgb(76,215,170);
+}
+
+#main{
+    z-index: 1;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background-color: rgb(255,255,255);
+    padding-left: 15px;
+    
+}
+h3{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.Pcontainer{
+    position: relative;
+    background-color: white;
+    min-width: 200px;
+    height: 345px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+#imgBox{
+    width: 100%;
+    height: 265px;
+    border-radius: 10px;
+}
+#imgBox img{
+    width: 100%;
+    height: 265px;
+    border-radius: 10px;
+    filter: contrast(110%);
+    
+}
+#rating{
+    border: 1px solid rgb(8,28,34);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    bottom: 65px;
+    left: 7px;
+    background-color: rgb(8,28,34);   
+    z-index: 2;
+}
+#rating p{
+    margin-top: 5px;
+    color: white;
+}
+
+#smallBox{
+    padding-top: 30px;
+
+}
+#smallBox p, h4{
+    margin: 0px;
+    margin-left: 5px;
+    text-size-adjust: 50px;
+}
+.links{
+    text-decoration: none;
+    color: black
+}
+
+
+

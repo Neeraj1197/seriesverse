@@ -1,0 +1,17 @@
+.peopleRightBar{
+    max-width: 68vw;
+    box-sizing: border-box;
+    padding: 2px;
+}
+
+.peopleRightBar h1{
+    margin-bottom: 25px;
+}
+.peopleRightBar h3{
+    margin: 0 0 10px 0;
+    font-weight: 450;
+}
+
+.biography, .knownfor, .random{
+    margin-bottom: 20px;
+}

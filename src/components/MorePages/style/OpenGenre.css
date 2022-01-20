@@ -1,0 +1,83 @@
+.genreContainer{
+    max-width: 100%;
+    box-sizing: border-box;
+
+}
+.genreNavbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.genreDropDown{
+    position: relative;
+    cursor: pointer;
+}
+.genreDropDown:hover .genreDropDownItem{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+   align-items: center;
+}
+.genreDropDownItem{
+    position: absolute; 
+    display: none;
+    border: 1px solid black;
+    top: 77px;
+    left: 650px;
+    height: 50px;
+    width: 90px;
+    background-color: #ffffff;
+    z-index: 10;
+    box-sizing: border-box;
+}
+.genreDropDownItem:hover{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+   align-items: center;
+    
+}
+
+.openCardBox{
+    max-width: 100%;
+    padding: 0 40px 0 40px;
+}
+.genreHeader{
+    background-color: rgb(5,46,66);
+    max-width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 40px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.openCard{
+    display: flex;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    
+}
+
+.poenCardImg{
+    width: 95px;
+    height: 145px;
+}
+.openCardImg img{
+    width: 94px;
+    height: 141px;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+.openCardInfo{
+    margin-left: 10px;
+    padding-top: 15px;
+}
+.openCardInfo div{
+    margin: 0 0 10px 0 ;
+}

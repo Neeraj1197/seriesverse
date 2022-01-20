@@ -1,0 +1,13 @@
+.mediaNavbar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.mediaNavbar span{
+    margin-right: 15px;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
